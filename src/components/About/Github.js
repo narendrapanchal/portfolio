@@ -1,5 +1,4 @@
 import React from "react";
-import GitHubCalendar from "react-github-calendar";
 import { Row } from "react-bootstrap";
 
 function Github() {
@@ -20,13 +19,13 @@ function Github() {
       </h1>
       </Row>
     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-      <GitHubCalendar
+      {/* <GitHubCalendar
         username="narendrapanchal"
         blockSize={15}
         blockMargin={5}
         theme={colourTheme}
         fontSize={16}
-      />
+      /> */}
     </Row>
     </div>
   );
