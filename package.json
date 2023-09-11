@@ -1,5 +1,6 @@
 {
   "name": "my-portfolio",
+  "homepage":"https://narendrapanchal.github.com/portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,6 +13,7 @@
     "aos": "^2.3.4",
     "axios": "^0.21.1",
     "bootstrap": "^4.5.3",
+    "gh-pages": "^6.0.0",
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.0",
     "react-dom": "^17.0.1",
@@ -23,8 +25,10 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "CI='' react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
