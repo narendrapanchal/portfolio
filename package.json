@@ -1,6 +1,6 @@
 {
   "name": "my-portfolio",
-  "homepage": "https://narendrapanchal.github.com/portfolio",
+  "homepage": "https://narendrapanchal.github.io/portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -26,7 +26,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "test": "react-scripts test",
