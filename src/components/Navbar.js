@@ -39,7 +39,7 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/">
+        <Navbar.Brand href="https://narendrapanchal.github.com/portfolio">
           <div>
             <img
               src="https://i.etsystatic.com/12499385/r/il/6849ae/2340102580/il_fullxfull.2340102580_8673.jpg"
