@@ -51,7 +51,7 @@ function Projects() {
               isBlog={false}
               title="Management Project"
               description="A project for management executives to handle user related queries."
-              tech="MySQL  NodeJs  | ReactJs | Javascript"
+              tech="MySQL | NodeJs  | ReactJs | Javascript"
             />
           </Col>
         </Row>
@@ -69,8 +69,8 @@ function Projects() {
             <ProjectCard
               imgPath={shopclues}
               isBlog={false}
-              title="ShopClues Clone "
-              description="ShopClues is an Indian online marketplace for a
+              title="EpicCartel"
+              description="EpicCartel is an Indian online marketplace for a
               variety of products.
                "
               tech=" HTML | CSS | Javascript"
@@ -80,7 +80,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={5} className="project-card" data-aos="fade-right">
+          {/* <Col md={5} className="project-card" data-aos="fade-right">
             <ProjectCard
               imgPath={Medium}
               isBlog={false}
@@ -91,13 +91,13 @@ function Projects() {
               linkmedium="https://medium.com/@yssambare/how-we-clone-the-strawberrynet-com-website-for-our-project-with-constructweek-experience-ed38cb6dc144"
               linklive="https://yssambare12.github.io/strawberrynetwithbackend.github.io/"
             />
-          </Col>
+          </Col> */}
           <Col md={5} className="project-card" data-aos="fade-right">
             <ProjectCard
               imgPath={Airbnb}
               isBlog={false}
-              title="Airbnb Clone "
-              description="Airbnb is an online marketplace that connects people who want to rent out their homes with people who are looking for accommodations in specific locales."
+              title="NestCheckIn"
+              description="NestCheckIn is an online marketplace that connects people who want to rent out their homes with people who are looking for accommodations in specific locales."
               tech="  MongoDB  |  NodeJs  | Redux | React"
               link="https://github.com/Gautam-8/Airbnb_clone"
               linkmedium="https://medium.com/@dsonar333/clone-of-airbnb-learn-team-work-4665c460c18f"
