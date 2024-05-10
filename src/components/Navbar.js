@@ -105,7 +105,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/portfolio/static/media/Narendra-Kumar-Panchal-Resume.932ffda3.pdf"
+                to="https://drive.google.com/file/d/1A4ey6LGtDBMkdE7x4z7M8bfVxtijUg9m/view?usp=sharing"
                 onClick={() => updateExpanded(false)}
                 target="_blank"
               >
