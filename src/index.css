@@ -6,3 +6,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-image: linear-gradient(to left, #181638, #270d21);
 }
+
+.container-fluid {
+  color: white !important;
+}

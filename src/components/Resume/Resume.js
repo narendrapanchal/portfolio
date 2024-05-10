@@ -46,7 +46,7 @@ function Resume() {
             &nbsp;Download Resume
           </Button>
         </Row>
-        <Row className="resume" data-aos="fade-up">
+<Row className="resume" data-aos="fade-up">
           <Col md={6} className="resume-left">
             
             <h3 className="resume-title">Extracurricular Activities</h3>

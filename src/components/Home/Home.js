@@ -5,7 +5,6 @@ import Home2 from "./Home2";
 import Type from "./Type";
 import Tilt from "react-parallax-tilt";
 import Asutosh from '../../Assets/narendra.jpg'
-
 import Aos from "aos";
 import "aos/dist/aos.css";
 import About from "../About/About";
@@ -16,7 +15,7 @@ function Home() {
   return (
     <section>
       <Container fluid className="home-section" id="home">
-        <Container className="home-content">
+        <Container className="home-content resume-section">
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
@@ -38,7 +37,7 @@ function Home() {
 
             <Col md={5} style={{ paddingBottom: 20 }} data-aos="fade-down">
               <Tilt>
-              <img style={{borderRadius: "160px"}} src={Asutosh} alt="home pic" className="img-fluid" />
+              <img style={{background:"gray",borderRadius: "160px",background: `linear-gradient(135deg, #3498db, #c0392b)`}} src={Asutosh} alt="home pic" className="img-fluid"/>
               </Tilt>
             </Col>
           </Row>

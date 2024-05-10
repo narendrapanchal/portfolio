@@ -105,13 +105,13 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/resume/"
+                to="/portfolio/static/media/Narendra-Kumar-Panchal-Resume.932ffda3.pdf"
                 onClick={() => updateExpanded(false)}
+                target="_blank"
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
-
             <Nav.Item>
               <Nav.Link
                 href="https://hashnode.com/@sp2-044-narendra"

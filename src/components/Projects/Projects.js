@@ -29,7 +29,7 @@ function Projects() {
           My Recent <strong className="purple">Projects </strong>
         </h1>
         <p style={{ color: "white" }} data-aos="fade-up">
-          Here are a few projects I've worked on recently.
+          Here are recent projects where I made vital contributions at my previous organization.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
@@ -61,7 +61,7 @@ function Projects() {
           My Initial <strong className="purple">Projects </strong>
         </h1>
         <p style={{ color: "white" }} data-aos="fade-up">
-          Here are a few projects I've worked on recently.
+          Here are a few projects I've worked on while learning at Masai School.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
