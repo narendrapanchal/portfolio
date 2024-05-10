@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.076ba3a4.chunk.css",
-    "main.js": "/portfolio/static/js/main.0c7f171a.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.0c7f171a.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.8caf16aa.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.8caf16aa.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.15e4b632.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.15e4b632.js.map",
     "static/css/2.5989538f.chunk.css": "/portfolio/static/css/2.5989538f.chunk.css",
@@ -18,7 +18,7 @@
     "static/media/Frontend.a480e530.png": "/portfolio/static/media/Frontend.a480e530.png",
     "static/media/Grocery.6f746199.png": "/portfolio/static/media/Grocery.6f746199.png",
     "static/media/Medium.3aa81e94.png": "/portfolio/static/media/Medium.3aa81e94.png",
-    "static/media/Narendra-Kumar-Panchal-Resume.932ffda3.pdf": "/portfolio/static/media/Narendra-Kumar-Panchal-Resume.932ffda3.pdf",
+    "static/media/Narendra-Kumar-Panchal-Resume.198188e2.pdf": "/portfolio/static/media/Narendra-Kumar-Panchal-Resume.198188e2.pdf",
     "static/media/Tictac.06910018.png": "/portfolio/static/media/Tictac.06910018.png",
     "static/media/about.aee0f771.png": "/portfolio/static/media/about.aee0f771.png",
     "static/media/about.eb90a10f.jpg": "/portfolio/static/media/about.eb90a10f.jpg",
@@ -32,6 +32,6 @@
     "static/css/2.5989538f.chunk.css",
     "static/js/2.fffb514e.chunk.js",
     "static/css/main.076ba3a4.chunk.css",
-    "static/js/main.0c7f171a.chunk.js"
+    "static/js/main.8caf16aa.chunk.js"
   ]
 }
