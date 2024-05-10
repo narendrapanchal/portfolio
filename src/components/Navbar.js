@@ -61,7 +61,11 @@ function NavBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <Nav.Link as={Link} to="/portfolio/" onClick={() => updateExpanded(false)}>
+              <Nav.Link
+                as={Link}
+                to="/portfolio/"
+                onClick={() => updateExpanded(false)}
+              >
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
               </Nav.Link>
             </Nav.Item>
@@ -95,19 +99,16 @@ function NavBar() {
                 to="/contact/"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineContacts
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                Contacts
+                <AiOutlineContacts style={{ marginBottom: "2px" }} /> Contacts
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
-                as={Link}
-                to="https://drive.google.com/file/d/1A4ey6LGtDBMkdE7x4z7M8bfVxtijUg9m/view?usp=sharing"
-                onClick={() => updateExpanded(false)}
+                href="https://drive.google.com/file/d/1A4ey6LGtDBMkdE7x4z7M8bfVxtijUg9m/view?usp=sharing"
                 target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => updateExpanded(false)}
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
