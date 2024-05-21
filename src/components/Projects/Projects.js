@@ -38,8 +38,7 @@ function Projects() {
               imgPath={happycredit}
               isBlog={false}
               title="HappyCredit"
-              description="High performance seo responsive website.
-               "
+              description="This is a high-performance, SEO-optimized, responsive eCommerce website where users can purchase products that offer the best prices over an extended period."
               tech="CSS | NextJs | Wordpress | Eleventy"
               linklive="https://happycredit.in/"
             />
@@ -50,7 +49,7 @@ function Projects() {
               imgPath={private_project}
               isBlog={false}
               title="Management Project"
-              description="A project for management executives to handle user related queries."
+              description="A project designed for management executives to handle user-related queries, where they can view and update a list of orders as needed."
               tech="MySQL | NodeJs  | ReactJs | Javascript"
             />
           </Col>
@@ -70,8 +69,7 @@ function Projects() {
               imgPath={shopclues}
               isBlog={false}
               title="EpicCartel"
-              description="EpicCartel is an Indian online marketplace for a
-              variety of products.
+              description="EpicCartel serves as an Indian online marketplace offering a diverse range of products.
                "
               tech=" HTML | CSS | Javascript"
               link="https://github.com/narendrapanchal/shopclues"
@@ -97,7 +95,7 @@ function Projects() {
               imgPath={Airbnb}
               isBlog={false}
               title="NestCheckIn"
-              description="NestCheckIn is an online marketplace that connects people who want to rent out their homes with people who are looking for accommodations in specific locales."
+              description="NestCheckIn operates as an online marketplace facilitating connections between homeowners seeking to rent out their properties and individuals searching for accommodations in particular areas."
               tech="  MongoDB  |  NodeJs  | Redux | React"
               link="https://github.com/Gautam-8/Airbnb_clone"
               linkmedium="https://medium.com/@dsonar333/clone-of-airbnb-learn-team-work-4665c460c18f"

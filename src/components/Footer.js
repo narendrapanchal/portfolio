@@ -16,7 +16,7 @@ function Footer() {
         <Col md="4" className="footer-body">
          <div style={{display: 'grid', marginLeft: 'auto',  width:'200px', gridTemplateColumns:'30% 30% 30%'}}>
               <div>
-              <acd  href="https://github.com/narendrapanchal" style={{textDecoration: 'none', color:'white'}}> <AiFillGithub style={{height: '20px', width: '20px'}} /> </acd>
+              <a  href="https://github.com/narendrapanchal" style={{textDecoration: 'none', color:'white'}}> <AiFillGithub style={{height: '20px', width: '20px'}} /> </a>
               </div>
               <div>
                 <a href="https://twitter.com/narendrpanchalk" style={{textDecoration: 'none', color:'white'}}><AiOutlineTwitter style={{height: '20px', width: '20px'}} /></a>
