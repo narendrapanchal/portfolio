@@ -13,6 +13,8 @@ import Grocery from "../../Assets/Projects/Grocery.png";
 // import suicide from "../../Assets/Projects/suicide.png";
 import Tictac from "../../Assets/Projects/Tictac.png";
 import shopclues from "../../Assets/shopclues.png";
+import movix from "../../Assets/movix.png";
+import trendingcards from "../../Assets/trending-cards.png";
 import happycredit from "../../Assets/happycredit.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -51,6 +53,33 @@ function Projects() {
               title="Management Project"
               description="A project designed for management executives to handle user-related queries, where they can view and update a list of orders as needed."
               tech="MySQL | NodeJs  | ReactJs | Javascript"
+            />
+          </Col>
+        </Row>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          <Col md={5} className="project-card" data-aos="fade-right">
+            <ProjectCard
+              imgPath={movix}
+              isBlog={false}
+              title="Movix"
+              description="Developed a personal project in 3 days to provide an overview of movies and TV shows. Implemented a search feature with toggle functionality to switch between movies and TV shows on the homepage. "
+              tech=" HTML | CSS | Javascript | React"
+              link="https://github.com/narendrapanchal/Movix"
+              linklive="https://movix-9lee.onrender.com/"
+            />
+          </Col>
+
+        
+          <Col md={5} className="project-card" data-aos="fade-right">
+            <ProjectCard
+              imgPath={trendingcards}
+              isBlog={false}
+              title="Trending Cards"
+              description="This is personal project executed in 3-4 days. Where a user can apply for the specific card and admin can approve or reject the application and can create new credit card and update or delete it."
+              tech="  MongoDB  |  NodeJs  | React | JavaScript |"
+              link="https://github.com/narendrapanchal/credit-card-frontend"
+              linklive="https://credit-card-frontend-2.onrender.com/"
             />
           </Col>
         </Row>
