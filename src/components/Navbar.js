@@ -112,15 +112,32 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                href="https://drive.google.com/file/d/1wklzbS1NC6SEkyIP0Q__GT7GR7WThLL3/view?usp=sharing"
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={() => updateExpanded(false)}
-              >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
-              </Nav.Link>
-            </Nav.Item>
+            <Nav.Link
+            href="#"
+            onClick={(e) => {
+              e.preventDefault();
+              updateExpanded(false);
+
+              // Open view link in a new tab
+              window.open(
+                "https://drive.google.com/file/d/1wklzbS1NC6SEkyIP0Q__GT7GR7WThLL3/view?usp=sharing",
+                "_blank"
+              );
+
+              // Trigger download
+              const link = document.createElement("a");
+              link.href =
+                "https://drive.google.com/uc?export=download&id=1wklzbS1NC6SEkyIP0Q__GT7GR7WThLL3";
+              link.setAttribute("download", "");
+              document.body.appendChild(link);
+              link.click();
+              document.body.removeChild(link);
+            }}
+          >
+            <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+          </Nav.Link>
+        </Nav.Item>
+
             {/* <Nav.Item>
               <Nav.Link
                 href="https://hashnode.com/@sp2-044-narendra"
