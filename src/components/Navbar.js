@@ -118,25 +118,26 @@ function NavBar() {
       e.preventDefault();
       updateExpanded(false);
 
-      // 1. Open the resume for preview
-      window.open(
-        "https://drive.google.com/file/d/1wklzbS1NC6SEkyIP0Q__GT7GR7WThLL3/view?usp=sharing",
-        "_blank"
-      );
+      // 1. Trigger preview in a new tab (pure <a> tag, not JS)
+      const preview = document.createElement("a");
+      preview.href = "https://drive.google.com/file/d/1wklzbS1NC6SEkyIP0Q__GT7GR7WThLL3/view?usp=sharing";
+      preview.target = "_blank";
+      preview.rel = "noopener noreferrer";
+      preview.click();
 
-      // 2. Trigger the download
-      const link = document.createElement("a");
-      link.href = "https://drive.google.com/uc?export=download&id=1wklzbS1NC6SEkyIP0Q__GT7GR7WThLL3";
-      link.setAttribute("download", "");
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
+      // 2. Trigger download (same click event)
+      const download = document.createElement("a");
+      download.href = "https://drive.google.com/uc?export=download&id=1wklzbS1NC6SEkyIP0Q__GT7GR7WThLL3";
+      download.download = "Narendra_Panchal_Resume.pdf";
+      document.body.appendChild(download);
+      download.click();
+      document.body.removeChild(download);
     }}
-    rel="noopener noreferrer"
   >
     <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
   </Nav.Link>
 </Nav.Item>
+
 
             {/* <Nav.Item>
               <Nav.Link
