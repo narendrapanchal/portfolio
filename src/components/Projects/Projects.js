@@ -5,7 +5,7 @@ import Particle from "../Particle";
 
 
 import Medium from "../../Assets/Projects/Medium.png";
-import private_project from "../../Assets/private_project.jpg";
+import private_project from "../../Assets/private_project.png";
 import Airbnb from "../../Assets/Projects/Airbnb.png";
 // import emotion from "../../Assets/Projects/emotion.jpeg";
 import Frontend from "../../Assets/Projects/Frontend.png";
@@ -50,9 +50,9 @@ function Projects() {
             <ProjectCard
               imgPath={private_project}
               isBlog={false}
-              title="Management Project"
-              description="A project designed for management executives to handle user-related queries, where they can view and update a list of orders as needed."
-              tech="MySQL | NodeJs  | ReactJs | Javascript"
+              title="Vidya AI"
+              description="A generative AI-powered chat assistant built to support both counselors and students in real-time communication."
+              tech="Javascript | HTML | CSS |"
             />
           </Col>
         </Row>

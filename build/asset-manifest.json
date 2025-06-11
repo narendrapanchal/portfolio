@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f89636d9.css",
-    "main.js": "/portfolio/static/js/main.a881d095.js",
+    "main.js": "/portfolio/static/js/main.d2ca7be9.js",
     "static/js/422.876c75be.chunk.js": "/portfolio/static/js/422.876c75be.chunk.js",
     "static/media/Airbnb.png": "/portfolio/static/media/Airbnb.2d37b5a86949a7f4d874.png",
     "static/media/Frontend.png": "/portfolio/static/media/Frontend.a480e530f9fa1bb6f1f3.png",
     "static/media/movix.png": "/portfolio/static/media/movix.aed85a112c6e6e94d2de.png",
+    "static/media/private_project.png": "/portfolio/static/media/private_project.de4d610b39d7a5839b3b.png",
     "static/media/shopclues.png": "/portfolio/static/media/shopclues.65fa7822a443c3147aa9.png",
     "static/media/trending-cards.png": "/portfolio/static/media/trending-cards.aaf295b7b0c64adcdb10.png",
     "static/media/happycredit.png": "/portfolio/static/media/happycredit.6f246c8ab380a5163ba2.png",
@@ -19,11 +20,11 @@
     "static/media/pre.svg": "/portfolio/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/portfolio/index.html",
     "main.f89636d9.css.map": "/portfolio/static/css/main.f89636d9.css.map",
-    "main.a881d095.js.map": "/portfolio/static/js/main.a881d095.js.map",
+    "main.d2ca7be9.js.map": "/portfolio/static/js/main.d2ca7be9.js.map",
     "422.876c75be.chunk.js.map": "/portfolio/static/js/422.876c75be.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f89636d9.css",
-    "static/js/main.a881d095.js"
+    "static/js/main.d2ca7be9.js"
   ]
 }
